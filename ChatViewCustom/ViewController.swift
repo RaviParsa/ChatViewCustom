@@ -101,7 +101,11 @@ class ViewController: UIViewController , UIImagePickerControllerDelegate, UIText
                     
                     
                     
+                    
+                    
+                    
                     print(label.text)
+
                     
                     
                 }
