@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6516426E2052A2BB005AF255 /* SenderMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6516426D2052A2BB005AF255 /* SenderMessageCell.swift */; };
+		651642702052A2E2005AF255 /* ReceiverMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6516426F2052A2E2005AF255 /* ReceiverMessageCell.swift */; };
 		652E99EB205289FC00816DD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652E99EA205289FC00816DD1 /* AppDelegate.swift */; };
 		652E99ED205289FC00816DD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652E99EC205289FC00816DD1 /* ViewController.swift */; };
 		652E99F0205289FC00816DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652E99EE205289FC00816DD1 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6516426D2052A2BB005AF255 /* SenderMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderMessageCell.swift; sourceTree = "<group>"; };
+		6516426F2052A2E2005AF255 /* ReceiverMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverMessageCell.swift; sourceTree = "<group>"; };
 		652E99E7205289FC00816DD1 /* ChatViewCustom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatViewCustom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		652E99EA205289FC00816DD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		652E99EC205289FC00816DD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				652E99F1205289FC00816DD1 /* Assets.xcassets */,
 				652E99F3205289FC00816DD1 /* LaunchScreen.storyboard */,
 				652E99F6205289FC00816DD1 /* Info.plist */,
+				6516426D2052A2BB005AF255 /* SenderMessageCell.swift */,
+				6516426F2052A2E2005AF255 /* ReceiverMessageCell.swift */,
 			);
 			path = ChatViewCustom;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				652E99ED205289FC00816DD1 /* ViewController.swift in Sources */,
 				652E99EB205289FC00816DD1 /* AppDelegate.swift in Sources */,
+				651642702052A2E2005AF255 /* ReceiverMessageCell.swift in Sources */,
+				6516426E2052A2BB005AF255 /* SenderMessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
